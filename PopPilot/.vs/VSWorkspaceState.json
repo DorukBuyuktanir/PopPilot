@@ -13,8 +13,10 @@
   },
   "ExpandedNodes": [
     "",
-    "\\PopPilot"
+    "\\PopPilot",
+    "\\PopPilot\\GameEngine",
+    "\\PopPilot\\GameEngine\\ScreenStuff"
   ],
-  "SelectedNode": "\\PopPilot\\PopPilot.c",
+  "SelectedNode": "\\PopPilot\\CMakeLists.txt",
   "PreviewInSolutionExplorer": false
 }
