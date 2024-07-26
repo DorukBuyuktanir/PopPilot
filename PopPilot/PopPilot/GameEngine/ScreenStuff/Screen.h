@@ -23,12 +23,12 @@ typedef struct Screen {
 	Layer UIlayer;
 }Screen;
 
-Screen* newScreen(uint_least32_t value);
-Screen* emptyScreen();
-Screen* resetScreen(Screen* scrn);
+Screen newScreen(uint_least32_t value);
+Screen emptyScreen();
+Screen resetScreen(Screen* scrn);
 
-Layer* combineLayers(Screen* scrn);
+Layer* combineLayers(Screen scrn);
 
-void printScreen(Screen* scrn);
+void printScreen(Screen scrn);
 void deleteScreen(Screen* scrn);
 

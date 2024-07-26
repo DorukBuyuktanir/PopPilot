@@ -16,6 +16,11 @@ add_executable(PopPilot
     "GameEngine/ScreenStuff/Screen.h" 
     "GameEngine/ScreenStuff/Layer.c" 
     "GameEngine/ScreenStuff/Screen.c" 
+    "GameEngine/GameLoop/FrameController.c"
+    "GameEngine/GameLoop/FrameController.h"
+    "GameEngine/GameLoop/SystemInfo.c"
+    "GameEngine/GameLoop/SystemInfo.h" 
+    "GameEngine/ExtraFeatures.c"
 )
 
 # C++ standardını belirleyin

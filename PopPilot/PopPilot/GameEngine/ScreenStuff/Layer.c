@@ -44,3 +44,11 @@ void printLayer(Layer* lyr) {
 		putchar('\n');
 	}
 }
+
+Layer* combineLayers(Screen scrn) {
+	return overWriteLayer(overWriteLayer(overWriteLayer(
+		scrn.layer0,
+		scrn.layer1),
+		scrn.layer2),
+		scrn.UIlayer);
+}

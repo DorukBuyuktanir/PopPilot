@@ -5,8 +5,14 @@
 
 
 
-int main()
-{
-	printf("HelloWorld :)");
-	return 0;
+int Update(SystemInfo sysInfo) {
+
+}
+
+int LateUpdate(SystemInfo sysInfo) {
+
+}
+
+int Awake(SystemInfo sysInfo) {
+
 }

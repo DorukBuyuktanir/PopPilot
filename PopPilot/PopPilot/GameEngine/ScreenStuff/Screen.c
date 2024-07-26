@@ -1,28 +1,34 @@
 #include "../Imports.h"
 #include "Screen.h"
 
-Screen* newScreen(uint_least32_t value) {
-	register Screen* scrn = (Screen*)malloc(sizeof(Screen));
+Screen newScreen(uint_least32_t value) {
+	Screen* scrn = (Screen*)malloc(sizeof(Screen));
 
 	if (scrn == NULL) {
 		printf("Memory allocation failed!\n");
 		exit(EXIT_FAILURE);
 	}
-
-	scrn->layer0 = *newLayer(value);
-	scrn->layer1 = *newLayer(value);
-	scrn->layer2 = *newLayer(value);
-	scrn->UIlayer = *emptyLayer();
-	return scrn;
+	return *scrn;
 }
 
-Screen* emptyScreen() {
+Screen emptyScreen() {
 	return newScreen(' ');
 }
 
-Layer* combineLayers(Screen* scrn) {
-	register Layer* lyr = overWriteLayer(scrn->layer0, scrn->layer1);
-	lyr = overWriteLayer(lyr, scrn->layer2);
-	lyr = overWritelayer(lyr, scrn->UIlayer);
-	return lyr;
+Screen resetScreen(Screen* scrn) {
+	(*scrn) = emptyScreen();
+
+	return *scrn;
+}
+
+void printScreen(Screen scrn) {
+	Layer* lyr = combineLayers(scrn);
+	printLayer(lyr);
+}
+
+void deleteScreen(Screen* scrn) {
+	free(*(scrn->layer0));
+	free(*(scrn->layer1));
+	free(*(scrn->layer2));
+	free(scrn);
 }

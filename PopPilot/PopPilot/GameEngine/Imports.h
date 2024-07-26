@@ -7,3 +7,7 @@
 #include <math.h>
 #include <stdbool.h>
 #include <stdint.h>
+
+// Extra Features !!!!!!!!!!! WAOW !!!!!!!!!!! :):):)
+
+bool functionEmpty(void (*func)());
