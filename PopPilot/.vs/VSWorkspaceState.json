@@ -14,9 +14,10 @@
   "ExpandedNodes": [
     "",
     "\\PopPilot",
+    "\\PopPilot\\GameEngine",
     "\\PopPilot\\GameEngine\\GameLoop",
     "\\PopPilot\\GameEngine\\ScreenStuff"
   ],
-  "SelectedNode": "\\PopPilot\\GameEngine",
+  "SelectedNode": "\\PopPilot\\GameEngine\\ScreenStuff\\Screen.c",
   "PreviewInSolutionExplorer": false
 }
