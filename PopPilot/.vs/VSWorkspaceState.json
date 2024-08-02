@@ -15,9 +15,11 @@
     "",
     "\\PopPilot",
     "\\PopPilot\\GameEngine",
+    "\\PopPilot\\GameEngine\\Components",
+    "\\PopPilot\\GameEngine\\DataStructures",
     "\\PopPilot\\GameEngine\\GameLoop",
     "\\PopPilot\\GameEngine\\ScreenStuff"
   ],
-  "SelectedNode": "\\PopPilot\\GameEngine\\ScreenStuff\\Screen.c",
+  "SelectedNode": "\\PopPilot\\GameEngine\\DataStructures\\Vector3.h",
   "PreviewInSolutionExplorer": false
 }

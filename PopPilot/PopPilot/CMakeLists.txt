@@ -21,7 +21,12 @@ add_executable(PopPilot
     "GameEngine/GameLoop/SystemInfo.c"
     "GameEngine/GameLoop/SystemInfo.h" 
     "GameEngine/ExtraFeatures.c"
-)
+    "GameEngine/Components/Transform.h" 
+    "GameEngine/DataStructures/IntVector3.h" 
+    "GameEngine/DataStructures/Vector3.h"
+    "GameEngine/DataStructures/IntVector3.c"
+    "GameEngine/DataStructures/Vector3.c"
+ "GameEngine/ScreenStuff/Scene.c")
 
 # C++ standardını belirleyin
 if (CMAKE_VERSION VERSION_GREATER 3.12)
