@@ -26,7 +26,7 @@ add_executable(PopPilot
     "GameEngine/DataStructures/Vector3.h"
     "GameEngine/DataStructures/IntVector3.c"
     "GameEngine/DataStructures/Vector3.c"
- "GameEngine/ScreenStuff/Scene.c")
+ "GameEngine/ScreenStuff/Scene.c" "GameEngine/EventHandler/InputSystem.h")
 
 # C++ standardını belirleyin
 if (CMAKE_VERSION VERSION_GREATER 3.12)

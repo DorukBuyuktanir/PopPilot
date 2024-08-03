@@ -17,9 +17,10 @@
     "\\PopPilot\\GameEngine",
     "\\PopPilot\\GameEngine\\Components",
     "\\PopPilot\\GameEngine\\DataStructures",
+    "\\PopPilot\\GameEngine\\EventHandler",
     "\\PopPilot\\GameEngine\\GameLoop",
     "\\PopPilot\\GameEngine\\ScreenStuff"
   ],
-  "SelectedNode": "\\PopPilot\\GameEngine\\DataStructures\\Vector3.h",
+  "SelectedNode": "\\PopPilot\\GameEngine\\EventHandler\\InputSystem.h",
   "PreviewInSolutionExplorer": false
 }

@@ -1,10 +1,13 @@
 # ninja log v5
-5	377	7438057314662086	PopPilot/CMakeFiles/PopPilot.dir/GameEngine/GameLoop/FrameController.c.obj	ea0d5ad3693b01bd
+23	475	7443792036118570	PopPilot/CMakeFiles/PopPilot.dir/GameEngine/GameLoop/FrameController.c.obj	ea0d5ad3693b01bd
 3	477	7436426168748605	PopPilot/CMakeFiles/PopPilot.dir/PopPilot.cpp.obj	60266d7eeefecd5f
-10	353	7437733166173980	PopPilot/CMakeFiles/PopPilot.dir/GameEngine/GameLoop/SystemInfo.c.obj	14ed91ff570eea8c
-2	51	7437266861685893	PopPilot/CMakeFiles/PopPilot.dir/GameEngine/ScreenStuff/Screen.c.obj	23e22fcc448c5382
-61	288	7438060262067482	PopPilot/PopPilot.exe	d766624dbee3e464
-1	60	7438060261200386	PopPilot/CMakeFiles/PopPilot.dir/PopPilot.c.obj	a23f1c0cd0176a0b
-4	354	7437733166203859	PopPilot/CMakeFiles/PopPilot.dir/GameEngine/ScreenStuff/Layer.c.obj	938230241f06db73
+30	489	7443792036252579	PopPilot/CMakeFiles/PopPilot.dir/GameEngine/GameLoop/SystemInfo.c.obj	14ed91ff570eea8c
+9	159	7443796397587362	PopPilot/CMakeFiles/PopPilot.dir/GameEngine/ScreenStuff/Screen.c.obj	23e22fcc448c5382
+160	448	7443796399220145	PopPilot/PopPilot.exe	24bffbe8f2a5745e
+8	489	7443792036262604	PopPilot/CMakeFiles/PopPilot.dir/PopPilot.c.obj	a23f1c0cd0176a0b
+7	326	7443309384237927	PopPilot/CMakeFiles/PopPilot.dir/GameEngine/ScreenStuff/Layer.c.obj	938230241f06db73
 3	53	7437233973287606	PopPilot/CMakeFiles/PopPilot.dir/GameEngine/FrameController..c.obj	a3328833a85b642d
 12	352	7437733166173980	PopPilot/CMakeFiles/PopPilot.dir/GameEngine/ExtraFeatures.c.obj	c20a4992b325c54d
+3	40	7443226563195069	PopPilot/CMakeFiles/PopPilot.dir/GameEngine/DataStructures/IntVector3.c.obj	1c379b86f3bfcb42
+17	375	7443046682816739	PopPilot/CMakeFiles/PopPilot.dir/GameEngine/DataStructures/Vector3.c.obj	72824585fdaa0fda
+20	354	7443309384507025	PopPilot/CMakeFiles/PopPilot.dir/GameEngine/ScreenStuff/Scene.c.obj	8eae3ef25803611f

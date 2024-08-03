@@ -1,34 +1,40 @@
-#include "../Imports.h"
 #include "Screen.h"
 
-Screen newScreen(uint_least32_t value) {
-	Screen* scrn = (Screen*)malloc(sizeof(Screen));
-
-	if (scrn == NULL) {
-		printf("Memory allocation failed!\n");
+Screen *newScreen(uint_least32_t insideVal) {
+	Screen* scrnPtr = (Screen*)malloc(sizeof(Screen));
+	if (scrnPtr == NULL) {
+		perror("malloc failed");
 		exit(EXIT_FAILURE);
 	}
-	return *scrn;
+
+	#pragma omp parallel for
+	for (int i = 0; i < row; i++) {
+		for (int j = 0; j < column; j++) {
+			(*scrnPtr)[i][j] = insideVal;
+		}
+	}
+
+	return scrnPtr;
 }
 
-Screen emptyScreen() {
-	return newScreen(' ');
+Screen* emptyScreen() {
+	return newScreen((uint_least32_t)' ');
 }
 
-Screen resetScreen(Screen* scrn) {
-	(*scrn) = emptyScreen();
-
-	return *scrn;
+Screen* resetScreen(Screen* screen) {
+	#pragma omp parallel for
+	for (int i = 0; i < row; i++)
+		for (int j = 0; j < column; j++)
+			(*screen)[i][j] = ' ';
 }
 
-void printScreen(Screen scrn) {
-	Layer* lyr = combineLayers(scrn);
-	printLayer(lyr);
-}
+void printScreen(Screen screen) {
+	#pragma omp parallel for
+		for (int i = 0; i < row; i++) {
+			for (int j = 0; j < column; j++) {
+				printf("%lc", screen[i][j]);
+			}
+			putchar('\n');
+		}
 
-void deleteScreen(Screen* scrn) {
-	free(*(scrn->layer0));
-	free(*(scrn->layer1));
-	free(*(scrn->layer2));
-	free(scrn);
 }

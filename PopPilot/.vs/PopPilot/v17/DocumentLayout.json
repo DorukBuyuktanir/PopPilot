@@ -3,56 +3,72 @@
   "WorkspaceRootPath": "D:\\PopPilot\\PopPilot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\FrameController.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\GameLoop\\FrameController.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\SystemInfo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\GameLoop\\SystemInfo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ScreenStuff\\Screen.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\ScreenStuff\\Screen.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ExtraFeatures.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\ExtraFeatures.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\PopPilot.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\PopPilot.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\FrameController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\GameLoop\\FrameController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\PopPilot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\PopPilot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\EventHandler\\InputSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\EventHandler\\InputSystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ScreenStuff\\Screen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\ScreenStuff\\Screen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ScreenStuff\\Layer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\ScreenStuff\\Layer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\FrameController.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\GameLoop\\FrameController.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ScreenStuff\\Screen.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\ScreenStuff\\Screen.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\SystemInfo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\GameLoop\\SystemInfo.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\SystemInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\GameLoop\\SystemInfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\Main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\Main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ScreenStuff\\Scene.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\ScreenStuff\\Scene.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ScreenStuff\\Layer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\ScreenStuff\\Layer.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\DataStructures\\Vector3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\DataStructures\\Vector3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\FrameController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\GameLoop\\FrameController.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\Imports.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\Imports.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\DataStructures\\IntVector3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\DataStructures\\IntVector3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\DataStructures\\IntVector3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\DataStructures\\IntVector3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\PopPilot.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\PopPilot.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\DataStructures\\Vector3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\DataStructures\\Vector3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\Components\\Transform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PopPilot\\GameEngine\\Components\\Transform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,168 +78,228 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExtraFeatures.c",
-              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ExtraFeatures.c",
-              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\ExtraFeatures.c",
-              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ExtraFeatures.c",
-              "RelativeToolTip": "PopPilot\\GameEngine\\ExtraFeatures.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-26T19:29:07.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SystemInfo.h",
-              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\SystemInfo.h",
-              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\GameLoop\\SystemInfo.h",
-              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\SystemInfo.h",
-              "RelativeToolTip": "PopPilot\\GameEngine\\GameLoop\\SystemInfo.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-26T19:08:34.594Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SystemInfo.c",
-              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\SystemInfo.c",
-              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\GameLoop\\SystemInfo.c",
-              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\SystemInfo.c",
-              "RelativeToolTip": "PopPilot\\GameEngine\\GameLoop\\SystemInfo.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-26T19:05:01.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FrameController.h",
-              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\FrameController.h",
-              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\GameLoop\\FrameController.h",
-              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\FrameController.h",
-              "RelativeToolTip": "PopPilot\\GameEngine\\GameLoop\\FrameController.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-26T18:19:19.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FrameController.c",
               "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\FrameController.c",
               "RelativeDocumentMoniker": "PopPilot\\GameEngine\\GameLoop\\FrameController.c",
               "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\FrameController.c",
               "RelativeToolTip": "PopPilot\\GameEngine\\GameLoop\\FrameController.c",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-26T18:18:53.52Z",
+              "WhenOpened": "2024-08-02T19:12:54.428Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Main.h",
-              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\Main.h",
-              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\Main.h",
-              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\Main.h",
-              "RelativeToolTip": "PopPilot\\GameEngine\\Main.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "InputSystem.h",
+              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\EventHandler\\InputSystem.h",
+              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\EventHandler\\InputSystem.h",
+              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\EventHandler\\InputSystem.h",
+              "RelativeToolTip": "PopPilot\\GameEngine\\EventHandler\\InputSystem.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-26T17:34:55.233Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Screen.c",
-              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ScreenStuff\\Screen.c",
-              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\ScreenStuff\\Screen.c",
-              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ScreenStuff\\Screen.c",
-              "RelativeToolTip": "PopPilot\\GameEngine\\ScreenStuff\\Screen.c",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwB0AAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-26T10:23:40.816Z",
+              "WhenOpened": "2024-08-03T09:31:39.092Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CMakeLists.txt",
-              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\CMakeLists.txt",
-              "RelativeDocumentMoniker": "PopPilot\\CMakeLists.txt",
-              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\CMakeLists.txt",
-              "RelativeToolTip": "PopPilot\\CMakeLists.txt",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-07-26T10:09:43.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Layer.c",
               "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ScreenStuff\\Layer.c",
               "RelativeDocumentMoniker": "PopPilot\\GameEngine\\ScreenStuff\\Layer.c",
               "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ScreenStuff\\Layer.c",
               "RelativeToolTip": "PopPilot\\GameEngine\\ScreenStuff\\Layer.c",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAQwC8AAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-26T10:18:21.668Z"
+              "WhenOpened": "2024-08-02T16:59:25.936Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Imports.h",
-              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\Imports.h",
-              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\Imports.h",
-              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\Imports.h",
-              "RelativeToolTip": "PopPilot\\GameEngine\\Imports.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-26T10:14:55.535Z"
+              "DocumentIndex": 3,
+              "Title": "Screen.c",
+              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ScreenStuff\\Screen.c",
+              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\ScreenStuff\\Screen.c",
+              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ScreenStuff\\Screen.c",
+              "RelativeToolTip": "PopPilot\\GameEngine\\ScreenStuff\\Screen.c",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-08-02T16:53:45.291Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
+              "Title": "Scene.c",
+              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ScreenStuff\\Scene.c",
+              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\ScreenStuff\\Scene.c",
+              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ScreenStuff\\Scene.c",
+              "RelativeToolTip": "PopPilot\\GameEngine\\ScreenStuff\\Scene.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-08-02T18:30:58.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Screen.h",
               "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ScreenStuff\\Screen.h",
               "RelativeDocumentMoniker": "PopPilot\\GameEngine\\ScreenStuff\\Screen.h",
               "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\ScreenStuff\\Screen.h",
               "RelativeToolTip": "PopPilot\\GameEngine\\ScreenStuff\\Screen.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-26T10:14:12.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PopPilot.h",
-              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\PopPilot.h",
-              "RelativeDocumentMoniker": "PopPilot\\PopPilot.h",
-              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\PopPilot.h",
-              "RelativeToolTip": "PopPilot\\PopPilot.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-25T20:36:55.032Z"
+              "WhenOpened": "2024-08-02T18:38:17.513Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "SystemInfo.c",
+              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\SystemInfo.c",
+              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\GameLoop\\SystemInfo.c",
+              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\SystemInfo.c",
+              "RelativeToolTip": "PopPilot\\GameEngine\\GameLoop\\SystemInfo.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-08-02T19:13:42.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SystemInfo.h",
+              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\SystemInfo.h",
+              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\GameLoop\\SystemInfo.h",
+              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\SystemInfo.h",
+              "RelativeToolTip": "PopPilot\\GameEngine\\GameLoop\\SystemInfo.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-02T17:19:30.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Vector3.h",
+              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\DataStructures\\Vector3.h",
+              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\DataStructures\\Vector3.h",
+              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\DataStructures\\Vector3.h",
+              "RelativeToolTip": "PopPilot\\GameEngine\\DataStructures\\Vector3.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-02T12:06:39.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Imports.h",
+              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\Imports.h",
+              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\Imports.h",
+              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\Imports.h",
+              "RelativeToolTip": "PopPilot\\GameEngine\\Imports.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-02T19:35:53.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "PopPilot.c",
               "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\PopPilot.c",
               "RelativeDocumentMoniker": "PopPilot\\PopPilot.c",
               "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\PopPilot.c",
               "RelativeToolTip": "PopPilot\\PopPilot.c",
-              "ViewState": "AQIAAAEAAAAAAAAAAAApwAgAAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-25T20:36:45.246Z",
+              "WhenOpened": "2024-08-02T19:27:12.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrameController.h",
+              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\FrameController.h",
+              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\GameLoop\\FrameController.h",
+              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\GameLoop\\FrameController.h",
+              "RelativeToolTip": "PopPilot\\GameEngine\\GameLoop\\FrameController.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-02T17:18:35.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Transform.h",
+              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\Components\\Transform.h",
+              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\Components\\Transform.h",
+              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\Components\\Transform.h",
+              "RelativeToolTip": "PopPilot\\GameEngine\\Components\\Transform.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-02T12:25:08.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "CMakeLists.txt",
+              "ToolTip": "D:\\PopPilot\\PopPilot\\CMakeLists.txt",
+              "RelativeToolTip": "CMakeLists.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-02T12:10:06.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Vector3.c",
+              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\DataStructures\\Vector3.c",
+              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\DataStructures\\Vector3.c",
+              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\DataStructures\\Vector3.c",
+              "RelativeToolTip": "PopPilot\\GameEngine\\DataStructures\\Vector3.c",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-08-02T12:07:17.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IntVector3.c",
+              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\DataStructures\\IntVector3.c",
+              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\DataStructures\\IntVector3.c",
+              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\DataStructures\\IntVector3.c",
+              "RelativeToolTip": "PopPilot\\GameEngine\\DataStructures\\IntVector3.c",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-08-02T12:07:00.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IntVector3.h",
+              "DocumentMoniker": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\DataStructures\\IntVector3.h",
+              "RelativeDocumentMoniker": "PopPilot\\GameEngine\\DataStructures\\IntVector3.h",
+              "ToolTip": "D:\\PopPilot\\PopPilot\\PopPilot\\GameEngine\\DataStructures\\IntVector3.h",
+              "RelativeToolTip": "PopPilot\\GameEngine\\DataStructures\\IntVector3.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-02T12:06:13.138Z",
               "EditorCaption": ""
             }
           ]

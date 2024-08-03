@@ -1,10 +1,11 @@
 #pragma once
 
 #include "../Imports.h"
+#include "../ScreenStuff/Screen.h"
 
 
 typedef struct {
-	bool areWeChilling;
+	Screen* mainScreen;
 }SystemInfo;
 
 SystemInfo newSystenInfo();

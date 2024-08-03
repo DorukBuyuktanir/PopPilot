@@ -8,7 +8,6 @@ int main()
 	int i = 0;
 	printf("Loading...:)");
 	SystemInfo systemInfo = newSystenInfo();
-	systemInfo.areWeChilling = true;
 
 	if(!functionEmpty(Awake)) {
 		keyCodes = Awake(systemInfo);
@@ -24,6 +23,8 @@ int main()
 				exit(keyCodes);
 		}
 
+		printScreen(*systemInfo.mainScreen);
+
 
 		if (!functionEmpty(LateUpdate)) {
 			keyCodes = LateUpdate(systemInfo);
@@ -31,4 +32,5 @@ int main()
 				exit(keyCodes);
 		}
 	}
+
 }
