@@ -140,6 +140,13 @@ build PopPilot\CMakeFiles\PopPilot.dir\GameEngine\ScreenStuff\Scene.c.obj: C_COM
   TARGET_COMPILE_PDB = PopPilot\CMakeFiles\PopPilot.dir\
   TARGET_PDB = PopPilot\PopPilot.pdb
 
+build PopPilot\CMakeFiles\PopPilot.dir\GameEngine\EventHandler\InputGetter.c.obj: C_COMPILER__PopPilot_unscanned_Debug D$:\PopPilot\PopPilot\PopPilot\GameEngine\EventHandler\InputGetter.c || cmake_object_order_depends_target_PopPilot
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI
+  OBJECT_DIR = PopPilot\CMakeFiles\PopPilot.dir
+  OBJECT_FILE_DIR = PopPilot\CMakeFiles\PopPilot.dir\GameEngine\EventHandler
+  TARGET_COMPILE_PDB = PopPilot\CMakeFiles\PopPilot.dir\
+  TARGET_PDB = PopPilot\PopPilot.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target PopPilot
@@ -148,7 +155,7 @@ build PopPilot\CMakeFiles\PopPilot.dir\GameEngine\ScreenStuff\Scene.c.obj: C_COM
 #############################################
 # Link the executable PopPilot\PopPilot.exe
 
-build PopPilot\PopPilot.exe: C_EXECUTABLE_LINKER__PopPilot_Debug PopPilot\CMakeFiles\PopPilot.dir\PopPilot.c.obj PopPilot\CMakeFiles\PopPilot.dir\GameEngine\ScreenStuff\Layer.c.obj PopPilot\CMakeFiles\PopPilot.dir\GameEngine\ScreenStuff\Screen.c.obj PopPilot\CMakeFiles\PopPilot.dir\GameEngine\GameLoop\FrameController.c.obj PopPilot\CMakeFiles\PopPilot.dir\GameEngine\GameLoop\SystemInfo.c.obj PopPilot\CMakeFiles\PopPilot.dir\GameEngine\ExtraFeatures.c.obj PopPilot\CMakeFiles\PopPilot.dir\GameEngine\DataStructures\IntVector3.c.obj PopPilot\CMakeFiles\PopPilot.dir\GameEngine\DataStructures\Vector3.c.obj PopPilot\CMakeFiles\PopPilot.dir\GameEngine\ScreenStuff\Scene.c.obj
+build PopPilot\PopPilot.exe: C_EXECUTABLE_LINKER__PopPilot_Debug PopPilot\CMakeFiles\PopPilot.dir\PopPilot.c.obj PopPilot\CMakeFiles\PopPilot.dir\GameEngine\ScreenStuff\Layer.c.obj PopPilot\CMakeFiles\PopPilot.dir\GameEngine\ScreenStuff\Screen.c.obj PopPilot\CMakeFiles\PopPilot.dir\GameEngine\GameLoop\FrameController.c.obj PopPilot\CMakeFiles\PopPilot.dir\GameEngine\GameLoop\SystemInfo.c.obj PopPilot\CMakeFiles\PopPilot.dir\GameEngine\ExtraFeatures.c.obj PopPilot\CMakeFiles\PopPilot.dir\GameEngine\DataStructures\IntVector3.c.obj PopPilot\CMakeFiles\PopPilot.dir\GameEngine\DataStructures\Vector3.c.obj PopPilot\CMakeFiles\PopPilot.dir\GameEngine\ScreenStuff\Scene.c.obj PopPilot\CMakeFiles\PopPilot.dir\GameEngine\EventHandler\InputGetter.c.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Ob0 /Od /RTC1 -ZI
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

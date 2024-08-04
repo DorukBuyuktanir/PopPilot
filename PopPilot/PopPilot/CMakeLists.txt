@@ -26,7 +26,10 @@ add_executable(PopPilot
     "GameEngine/DataStructures/Vector3.h"
     "GameEngine/DataStructures/IntVector3.c"
     "GameEngine/DataStructures/Vector3.c"
- "GameEngine/ScreenStuff/Scene.c" "GameEngine/EventHandler/InputSystem.h")
+    "GameEngine/ScreenStuff/Scene.c" 
+    "GameEngine/EventHandler/InputSystem.h"
+    "GameEngine/EventHandler/InputGetter.c"
+)
 
 # C++ standardını belirleyin
 if (CMAKE_VERSION VERSION_GREATER 3.12)
@@ -34,3 +37,4 @@ if (CMAKE_VERSION VERSION_GREATER 3.12)
 endif()
 
 # TODO: Gerekirse testleri ve yükleme hedeflerini ekleyin.
+include_directories(${SDL2_INCLUDE_DIRS})
