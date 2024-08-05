@@ -1,5 +1,6 @@
 #include "FrameController.h"
 #include "../ScreenStuff/Screen.h"
+#include "../EventHandler/InputSystem.h"
 
 int keyCodes;
 
@@ -9,27 +10,29 @@ int main()
 	printf("Loading...:)");
 	SystemInfo systemInfo = newSystenInfo();
 
-	if(!functionEmpty(Awake)) {
-		keyCodes = Awake(systemInfo);
-		if (keyCodes == 0 || keyCodes == 1)
-			exit(keyCodes);
-	}
+	if(!functionEmpty(Awake))
+		exitProgram(Awake(systemInfo), &systemInfo);
 
 	while (true) {
-		system("cls");
-		if (!functionEmpty(Update)) {
-			keyCodes = Update(systemInfo);
-			if (keyCodes == 0 || keyCodes == 1)
-				exit(keyCodes);
-		}
+		#pragma omp parallel sections
+		{
+			#pragma omp section
+			{
+				system("cls");
+				if (!functionEmpty(Update))
+					exitProgram(Update(systemInfo), &systemInfo);
 
-		printScreen(*systemInfo.mainScreen);
+				printScreen(*systemInfo.mainScreen);
 
+				if (!functionEmpty(LateUpdate))
+					exitProgram(LateUpdate(systemInfo), &systemInfo);
+			}
 
-		if (!functionEmpty(LateUpdate)) {
-			keyCodes = LateUpdate(systemInfo);
-			if (keyCodes == 0 || keyCodes == 1)
-				exit(keyCodes);
+			#pragma omp section
+			{
+				if (getkeyPressed() == 'q')
+					exitProgram(0, &systemInfo);
+			}
 		}
 	}
 

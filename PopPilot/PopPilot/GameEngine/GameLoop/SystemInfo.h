@@ -9,3 +9,4 @@ typedef struct {
 }SystemInfo;
 
 SystemInfo newSystenInfo();
+void exitProgram(int key, SystemInfo* systemInfo);
