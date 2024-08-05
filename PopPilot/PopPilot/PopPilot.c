@@ -6,10 +6,6 @@
 
 
 int Update(SystemInfo sysInfo) {
-	char pressed = getch();
-	putchar(pressed);
-	if (pressed == 'q')
-		return 0;
 	return 2;
 }
 

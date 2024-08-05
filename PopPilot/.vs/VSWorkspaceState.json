@@ -21,6 +21,6 @@
     "\\PopPilot\\GameEngine\\GameLoop",
     "\\PopPilot\\GameEngine\\ScreenStuff"
   ],
-  "SelectedNode": "\\PopPilot\\GameEngine\\EventHandler\\InputSystem.h",
+  "SelectedNode": "\\PopPilot\\GameEngine\\GameLoop\\SystemInfo.c",
   "PreviewInSolutionExplorer": false
 }
