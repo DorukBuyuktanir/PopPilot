@@ -16,15 +16,6 @@ SystemInfo newSystenInfo() {
 }
 
 void exitProgram(int key, SystemInfo* systemInfo) {
-	if (key == 0 || key == 1) {
-		/*for (int i = 0; i < row; i++) {
-			char* currentCharPtr = (*systemInfo->mainScreen)[i];
-			free(currentCharPtr);
-		}*/
-
-		free(systemInfo->mainScreen);
-		free(systemInfo);
-
-		exit(key);
-	}
+	if (key == 0 || key == 1)
+		systemInfo->areWeChilling = false;
 }

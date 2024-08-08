@@ -27,5 +27,7 @@ int main()
 			if (getkeyPressed() == 'q')
 				exitProgram(0, &systemInfo);
 	}
-
+	
+	free(systemInfo.mainScreen);
+	free(systemInfo.areWeChilling);
 }
