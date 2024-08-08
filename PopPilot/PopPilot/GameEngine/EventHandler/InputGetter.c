@@ -2,36 +2,39 @@
 #include "../Imports.h"
 
 #ifdef _WIN32
-#include <conio.h> 
+    #include <conio.h> 
 #else
-#include <termios.h>
-#include <unistd.h>
+    #include <termios.h>
+    #include <fcntl.h>
+    #include <unistd.h>
 #endif
 
 char getkeyPressed() {
 #ifdef _WIN32
-    return _getch();
+    if (_kbhit())
+        return _getch();
+    else
+        return EOF;
 #else
     struct termios oldt, newt;
+    int oldf;
 
     void init_termios(int echo) {
-        tcgetattr(STDIN_FILENO, &oldt); // get old terminal attributes
-        newt = oldt; // start with old attributes
-        newt.c_lflag &= ~ICANON; // disable canonical mode
-        if (echo) {
-            newt.c_lflag |= ECHO; // enable echo
-        }
-        else {
-            newt.c_lflag &= ~ECHO; // disable echo
-        }
-        tcsetattr(STDIN_FILENO, TCSANOW, &newt); // set new attributes
+        tcgetattr(STDIN_FILENO, &oldt);
+        newt = oldt;
+        newt.c_lflag &= ~ICANON;
+        newt.c_lflag &= echo ? ECHO : ~ECHO;
+        tcsetattr(STDIN_FILENO, TCSANOW, &newt);
+        oldf = fcntl(STDIN_FILENO, F_GETFL, 0);
+        fcntl(STDIN_FILENO, F_SETFL, oldf | O_NONBLOCK); // Non-blocking mode
     }
 
     void reset_termios(void) {
-        tcsetattr(STDIN_FILENO, TCSANOW, &oldt); // reset to old terminal attributes
+        tcsetattr(STDIN_FILENO, TCSANOW, &oldt);
+        fcntl(STDIN_FILENO, F_SETFL, oldf);
     }
 
-    char ch;
+    char ch = 0;
     init_termios(0);
     ch = getchar();
     reset_termios();
