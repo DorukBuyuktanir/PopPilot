@@ -13,27 +13,19 @@ int main()
 	if(!functionEmpty(Awake))
 		exitProgram(Awake(systemInfo), &systemInfo);
 
-	while (true) {
-		#pragma omp parallel sections
-		{
-			#pragma omp section
-			{
-				system("cls");
-				if (!functionEmpty(Update))
-					exitProgram(Update(systemInfo), &systemInfo);
+	while (systemInfo.areWeChilling) {
+			system("cls");
+			if (!functionEmpty(Update))
+				exitProgram(Update(systemInfo), &systemInfo);
 
 				printScreen(*systemInfo.mainScreen);
 
-				if (!functionEmpty(LateUpdate))
-					exitProgram(LateUpdate(systemInfo), &systemInfo);
-			}
+			if (!functionEmpty(LateUpdate))
+				exitProgram(LateUpdate(systemInfo), &systemInfo);
 
-			#pragma omp section
-			{
-				if (getkeyPressed() == 'q')
-					exitProgram(0, &systemInfo);
-			}
-		}
+
+			if (getkeyPressed() == 'q')
+				exitProgram(0, &systemInfo);
 	}
 
 }

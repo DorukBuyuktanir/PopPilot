@@ -6,6 +6,7 @@
 
 typedef struct {
 	Screen* mainScreen;
+	bool areWeChilling;
 }SystemInfo;
 
 SystemInfo newSystenInfo();
